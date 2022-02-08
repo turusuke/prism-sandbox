@@ -1,0 +1,24 @@
+{
+  "name": "prism-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "prism mock ./petstore-expanded.yml",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turusuke/prism-sandbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/turusuke/prism-sandbox/issues"
+  },
+  "homepage": "https://github.com/turusuke/prism-sandbox#readme",
+  "dependencies": {
+    "@stoplight/prism-cli": "^4.6.1"
+  }
+}
